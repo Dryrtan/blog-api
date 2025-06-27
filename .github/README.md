@@ -63,3 +63,9 @@ npm run start
 A documentação da API você pode fazer um fork **Postman Collection** em seu workspace no Postman
 
 [<img src="https://run.pstmn.io/button.svg" alt="Executar no Postman" style="width: 128px; height: 32px;">](https://infopoint-software.postman.co/workspace/My-Workspace~e8ca7daa-32d5-4838-8250-90fc35239ca5/collection/17607403-495c44c4-a1df-4b8d-afe2-9f7423746015?action=share&creator=17607403)
+
+## Sugestões para melhoria
+- Implemente a validação: Adicione um middleware antes das rotas de create e update para usar os schemas do Zod.
+- Autenticação: Adicione rotas de login/registro e proteja as rotas com JWT.
+- Testes Unitários: Use Jest ou Vitest para escrever testes para a camada de serviço.
+- Containerização: Crie um Dockerfile para rodar sua aplicação em um container Docker.
